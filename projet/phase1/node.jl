@@ -15,6 +15,7 @@ Exemple:
 mutable struct Node{T} <: AbstractNode{T}
   name::String
   data::T
+  caso
 end
 
 # on présume que tous les noeuds dérivant d'AbstractNode
